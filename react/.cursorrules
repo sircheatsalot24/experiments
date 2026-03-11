@@ -1,0 +1,75 @@
+# Juvo – Cursor AI Rules
+
+# This file gives the AI context about the Juvo project so it can provide relevant, accurate help.
+
+## What is Juvo?
+
+Juvo is a community platform for teens aged 13–18 to find local paid work (lawn care, errands, chores, etc.)
+posted by parents and neighbors. It combines:
+
+- **Job matching** – teens are matched to local jobs based on skills and availability
+- **Teen banking** – in-app payments, allowances, and money management tools
+- **Financial literacy** – gamified learning modules and personalized short-form educational content
+- **Community engagement** – local events, volunteering, charity, and group savings goals
+
+Tagline: "Your community, powered by you."
+
+## Founders
+
+- **Pravir** – frontend (React.js)
+- **Co-founder** – backend (stack TBD)
+
+## Tech Stack
+
+- **Frontend:** React.js
+- **Backend:** TBD (being built by co-founder — assume REST API for now)
+- **Payments:** Bank API integrations (TBD)
+- **Auth:** TBD — likely token-based (JWT or similar)
+- **Target platforms:** Web (mobile-friendly)
+
+## Target Users
+
+1. **Teens (13–18)** – looking for local work, financial tools, and community
+2. **Parents** – posting jobs, managing teen accounts, premium subscriptions
+3. **Community orgs / neighbors** – posting jobs, sponsoring events
+
+## Key Features to Build (Frontend)
+
+- Teen and parent onboarding flows
+- Job feed with filtering and matching UI
+- Job posting form (for parents/neighbors)
+- Teen profile and skills page
+- In-app wallet / banking dashboard
+- Financial literacy module UI (gamified)
+- Community events and volunteering page
+- Notifications
+
+## Business Model (for context)
+
+- 5–10% service fee on job transactions
+- Parent premium subscription (better filters, verified workers)
+- Teen premium (advanced finance tools, better job matching)
+- Partnerships with local schools, nonprofits, city orgs
+- Pilot launching in Longmont, CO
+
+## Compliance & Safety Notes
+
+- Platform must comply with COPPA (users under 13 are excluded, parental consent required)
+- Identity verification is a core feature — third-party ID verification for safety
+- Parental oversight and controls are required throughout the UI
+
+## Code Conventions
+
+- Use functional React components with hooks
+- Keep components small and focused (single responsibility)
+- Use descriptive, readable variable and function names
+- Prefer clean, readable code over clever one-liners
+- Pravir is actively learning React — explain reasoning when suggesting non-obvious patterns
+
+## AI Behavior Guidelines
+
+- When suggesting code, prefer simple and readable over complex and clever
+- Always explain what a suggested pattern does and why it's appropriate here
+- Flag any COPPA or safety implications if they arise in UI decisions
+- Assume REST API with JSON responses until backend stack is confirmed
+- Do not assume any specific UI library unless one has been established in the project

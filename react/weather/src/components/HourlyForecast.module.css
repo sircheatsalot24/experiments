@@ -1,0 +1,78 @@
+.section {
+  color: #fff;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  opacity: 0.7;
+  margin: 0 0 14px;
+}
+
+.scroll {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  padding-bottom: 8px;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255,255,255,0.2) transparent;
+}
+
+.scroll::-webkit-scrollbar {
+  height: 4px;
+}
+
+.scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 16px;
+  padding: 14px 16px;
+  text-align: center;
+  backdrop-filter: blur(8px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  min-width: 70px;
+  flex-shrink: 0;
+  transition: background 0.2s;
+}
+
+.card:hover {
+  background: rgba(255, 255, 255, 0.18);
+}
+
+.time {
+  font-size: 12px;
+  font-weight: 600;
+  opacity: 0.7;
+  margin: 0;
+}
+
+.icon {
+  font-size: 22px;
+  line-height: 1;
+}
+
+.temp {
+  font-size: 15px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.precip {
+  font-size: 11px;
+  opacity: 0.75;
+  margin: 0;
+}
